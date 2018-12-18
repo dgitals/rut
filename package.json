@@ -6,6 +6,9 @@
   "scripts": {
     "test": "jest"
   },
+  "files": [
+    "index.js"
+  ],
   "devDependencies": {
     "jest": "^23.6.0"
   },
@@ -19,5 +22,8 @@
     "browser"
   ],
   "author": "dgitals",
+  "bugs": {
+    "url": "https://github.com/dgitals/rut/issues"
+  },
   "license": "MIT"
 }
