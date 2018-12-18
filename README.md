@@ -35,4 +35,4 @@ If you find a bug, please file an issue on [our issue tracker on GitHub](https:/
 
 ### Credits
 
-@dgitals/rut  is built and maintained by [Dgitals, Inc.](https://github.com/dgitals).
+@dgitals/rut  is built and maintained by [Dgitals, Inc](https://github.com/dgitals).
