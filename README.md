@@ -1,5 +1,6 @@
 # @dgitals/rut 
-[![](https://img.shields.io/npm/v/@dgitals/rut.svg)](https://www.npmjs.com/package/@dgitals/rut) [![styled with prettier](https://img.shields.io/badge/styled_with-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
+[![](https://img.shields.io/npm/v/@dgitals/rut.svg)](https://www.npmjs.com/package/@dgitals/rut) [![](https://img.shields.io/badge/coverage-100%25-green.svg)](https://github.com/dgitals/rut/blob/master/__tests__/index.test.js) [![styled with prettier](https://img.shields.io/badge/styled_with-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
+
 
 
 
@@ -31,6 +32,12 @@ Usage demo is pending...
 */
 ```
 
+### Testing
+
+```js
+$ yarn install
+$ yarn test
+```
 ### Issues
 
 If you find a bug, please file an issue on [our issue tracker on GitHub](https://github.com/dgitals/rut/issues).
