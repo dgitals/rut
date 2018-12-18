@@ -1,0 +1,23 @@
+{
+  "name": "rut",
+  "version": "0.1.0",
+  "description": "Just another toolkit library for validating/formatting RUTs",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^23.6.0"
+  },
+  "repository": "git@github.com:dgitals/rut.git",
+  "keywords": [
+    "validation",
+    "chilean",
+    "rut",
+    "formatting",
+    "node",
+    "browser"
+  ],
+  "author": "dgitals",
+  "license": "MIT"
+}
