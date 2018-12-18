@@ -6,6 +6,8 @@
 
 🇨🇱 Just another toolkit library for validating/formatting RUTs
 
+Don't know what a RUT is? [read this](https://transferwise.com/us/blog/rut-run-meaning-chile).
+
 ### Installation
 
 Using [npm](https://www.npmjs.com/):
