@@ -1,6 +1,6 @@
 {
   "name": "@dgitals/rut",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Just another toolkit library for validating/formatting RUTs",
   "main": "index.js",
   "scripts": {
