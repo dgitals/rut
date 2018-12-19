@@ -20,19 +20,48 @@ Using [yarn](https://yarnpkg.com/):
     $ yarn add @dgitals/rut
 
 
-### Usage
+### Usage: Cleaning a RUT
 
 ```js
 ...
-import { clean, validate, format } from '@dgitals/rut'
+import { clean } from '@dgitals/rut'
 ...
 
-/*
+clean('18.722.577-9')   // returns 187225779
+clean('0187225779')     // returns 187225779
+clean('7.903.486-k')    // returns 7903486K
 
-Usage demo is pending... 
-
-*/
 ```
+
+### Usage: Validating a RUT
+
+```js
+...
+import { validate } from '@dgitals/rut'
+...
+
+validate('18.722.577-9')          // returns true
+validate('7903486k')              // returns true
+validate('nope18.722.577-9')   // returns false
+validate(187225779)               // returns false (RUT is ok, but needs to be a String)
+
+```
+
+### Usage: Formatting a RUT
+
+```js
+...
+import { format } from '@dgitals/rut'
+...
+
+clean('7903486-k')      // returns 7.903.486-k
+clean('18*722*577*9')   // returns 18.722.577-9
+clean('187225779')      // returns 18.722.577-9
+
+```
+
+> Note: all methods above MUST receive a String parameter as RUT
+
 
 ### Testing
 
