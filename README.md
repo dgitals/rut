@@ -42,7 +42,7 @@ import { validate } from '@dgitals/rut'
 
 validate('18.722.577-9')          // returns true
 validate('7903486k')              // returns true
-validate('nope18.722.577-9')   // returns false
+validate('nope18.722.577-9')      // returns false
 validate(187225779)               // returns false (RUT is ok, but needs to be a String)
 
 ```
