@@ -54,9 +54,9 @@ validate(187225779)               // returns false (RUT is ok, but needs to be a
 import { format } from '@dgitals/rut'
 ...
 
-clean('7903486-k')      // returns 7.903.486-k
-clean('18*722*577*9')   // returns 18.722.577-9
-clean('187225779')      // returns 18.722.577-9
+format('7903486-k')      // returns 7.903.486-k
+format('18*722*577*9')   // returns 18.722.577-9
+format('187225779')      // returns 18.722.577-9
 
 ```
 
