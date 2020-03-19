@@ -1,4 +1,4 @@
-# @dgitals/rut 
+# rut 
 [![](https://img.shields.io/npm/v/@dgitals/rut.svg)](https://www.npmjs.com/package/@dgitals/rut) [![](https://img.shields.io/badge/coverage-100%25-green.svg)](https://github.com/dgitals/rut/blob/master/__tests__/index.test.js) [![styled with prettier](https://img.shields.io/badge/styled_with-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
 
 
